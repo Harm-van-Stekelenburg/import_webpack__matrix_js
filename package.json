@@ -1,0 +1,21 @@
+{
+  "name": "min_prob",
+  "version": "1.0.0",
+  "private": "true",
+  "scripts": {
+    "serve": "npx tsc && webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "matrix-js-sdk": "=34.5.0-rc.0",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
