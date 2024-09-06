@@ -13,7 +13,7 @@ const auth = {
 
 console.log(global);
 
-// Yeah some problem but needed to comment out ./node_modules/matrix-js-sdk/lib/client.js:1111 because that import failed.
+// Yeah some problem but needed to comment out: ./node_modules/matrix-js-sdk/lib/client.js:1111 because that import failed.
 
 const client = sdk.createClient(auth);
 
