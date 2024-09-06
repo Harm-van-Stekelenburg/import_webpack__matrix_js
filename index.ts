@@ -1,14 +1,10 @@
 import * as sdk from 'matrix-js-sdk';
-import { ICreateClientOpts, MemoryStore } from 'matrix-js-sdk';
 
 const auth = {
   baseUrl: "http://localhost:8008",
-  accessToken: "syt_ZWVmLWU0NA_aGVXhLWuEJPQbPATBlSM_2Hqaig",
-  userId: "@eef-e44:testhub.matrix.host",
+  accessToken: "TOKEN",
+  userId: "USER",
   timelineSupport: true,
-  // store: new MemoryStore({
-  //   localStorage: global.localStorage,
-  // }),
 };
 
 console.log(global);
